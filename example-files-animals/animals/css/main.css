@@ -1,0 +1,54 @@
+/* variables */
+:root{
+    --page-color: rgb(70, 170, 60);
+    --border-color: rgb(6, 58, 19);
+    --figure-bg-color: rgb(229, 147, 179);
+    --border-radius-default: 10px:
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--page-color);
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+figure img {
+    display: block;
+    width: 450px;
+    height: auto;
+    border-radius: var(--border-radius-default);
+    margin-bottom: 1.25em;
+}
+
+figure figcaption{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    background: var(--figure-bg-color);
+    padding: 1.25em;
+    border-radius: var(--border-radius-default);
+}
+
+figure {
+    margin: 0px 15px 0px auto;  /* top right bottom left*/
+    display: inline-block;
+    padding: 1.25em;
+    background: var(--border-color);
+    border-radius: 15px;
+
+}
+
+section{
+    width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25em;
+}
