@@ -1,0 +1,57 @@
+.header1{
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-bottom-width: 5px;
+    border-color: blueviolet;
+    width: 1000px;
+    margin: auto;
+    background-color: black;
+    color: ivory;
+}
+
+.links{
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-color: blueviolet;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    background-color: black;
+    color: ivory;
+    
+    
+}
+
+.footer1{
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-top-width: 5px;
+    border-color: blueviolet;
+    width: 1000px;
+    margin: auto;
+    background-color: black;
+    color: ivory;
+    
+}
+
+.body1{
+    background-image: url(../images/spinning_gengar.gif);
+}
+
+a {
+    color: blueviolet;
+    font-size: x-large;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
